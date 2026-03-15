@@ -26,7 +26,7 @@ const experiences = [
 
 const education = {
   degree: "B.Tech — Artificial Intelligence & Data Science",
-  institution: "Chettinad College of Engineering, Chennai",
+  institution: "Chettinad College of Engineering, Karur",
   duration: "2023 – 2027 (Expected)",
   year: "3rd Year",
 };
