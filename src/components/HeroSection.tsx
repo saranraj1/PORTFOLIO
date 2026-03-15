@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { ArrowDown, Mail } from "lucide-react";
+import { ArrowDown, Mail, Download } from "lucide-react";
 
 const terminalLines = [
   { prompt: "$ whoami", response: "U SaranRaj — AI/ML Researcher & Developer" },
