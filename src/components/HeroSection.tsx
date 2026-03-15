@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { ArrowDown, Mail } from "lucide-react";
+import { ArrowDown, Mail, Download } from "lucide-react";
 
 const terminalLines = [
   { prompt: "$ whoami", response: "U SaranRaj — AI/ML Researcher & Developer" },
@@ -144,6 +144,14 @@ const HeroSection = () => {
                 className="inline-flex items-center gap-2 px-5 py-2.5 border border-border text-foreground font-mono text-xs uppercase tracking-wider hover:border-primary hover:text-primary transition-colors rounded-sm"
               >
                 Get in Touch <Mail className="w-3 h-3" />
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1VYxv7HQjSEnTGAUUlH72rBMboRWPUDR4/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-5 py-2.5 border border-border text-foreground font-mono text-xs uppercase tracking-wider hover:border-neural-teal hover:text-neural-teal transition-colors rounded-sm"
+              >
+                Resume <Download className="w-3 h-3" />
               </a>
             </div>
           </motion.div>
