@@ -56,7 +56,7 @@ const ContactSection = () => (
               className="flex items-center gap-3 text-lg hover:text-primary transition-colors group"
             >
               <Linkedin className="w-5 h-5 text-primary" />
-              <span>linkedin.com/in/saranraj-u</span>
+              <span>https://www.linkedin.com/in/saranraj-u-663615352 </span>
               <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
             </a>
           </div>
