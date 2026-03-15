@@ -1,12 +1,32 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import CustomCursor from "@/components/CustomCursor";
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
+import ChallengeSection from "@/components/ChallengeSection";
+import ProjectsSection from "@/components/ProjectsSection";
+import PhilosophySection from "@/components/PhilosophySection";
+import ThinkingSection from "@/components/ThinkingSection";
+import SkillsSection from "@/components/SkillsSection";
+import ExperienceSection from "@/components/ExperienceSection";
+import StudyStackSection from "@/components/StudyStackSection";
+import HireSection from "@/components/HireSection";
+import ContactSection from "@/components/ContactSection";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="relative min-h-screen">
+      <div className="noise-overlay" />
+      <CustomCursor />
+      <Navbar />
+      <HeroSection />
+      <ChallengeSection />
+      <ProjectsSection />
+      <PhilosophySection />
+      <ThinkingSection />
+      <SkillsSection />
+      <ExperienceSection />
+      <StudyStackSection />
+      <HireSection />
+      <ContactSection />
     </div>
   );
 };
