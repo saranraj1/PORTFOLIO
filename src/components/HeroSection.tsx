@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { ArrowDown, Mail, Download } from "lucide-react";
 
 const terminalLines = [
-  { prompt: "$ whoami", response: "U SaranRaj — AI/ML Researcher & Developer" },
+  { prompt: "$ who am i", response: "U SaranRaj — AI/ML Researcher & Developer" },
   { prompt: '$ cat profile.json', response: '{ "focus": "AI Robustness & Explainability", "location": "Chennai, India" }' },
   { prompt: "$ python3 philosophy.py", response: '"Building AI that interrogates itself"' },
 ];
